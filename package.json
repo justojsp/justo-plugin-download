@@ -1,11 +1,11 @@
 {
   "name": "justo-plugin-download",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin to download files.",
   "homepage": "http://justojs.org",
   "author": {
     "name": "Justo Labs",
-    "email": "justojs@jutolabs.com",
+    "email": "info@jutolabs.com",
     "url": "http://justojs.org"
   },
   "contributors": [
@@ -34,7 +34,7 @@
     "npm": ">= 3.0.0"
   },
   "dependencies": {
-    "download": "*"
+    "justo-download": "*"
   },
   "peerDependencies": {},
   "devDependencies": {

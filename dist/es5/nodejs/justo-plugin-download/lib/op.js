@@ -4,7 +4,7 @@
 
 
 
-op;var _download = require("download");var _download2 = _interopRequireDefault(_download);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function op(params, done) {
+op;var _justoDownload = require("justo-download");var _justoDownload2 = _interopRequireDefault(_justoDownload);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function op(params, done) {
   var opts;
 
 
@@ -15,4 +15,4 @@ op;var _download = require("download");var _download2 = _interopRequireDefault(_
 
 
 
-  new _download2.default().get(opts.src, opts.dst).run(done);}
+  (0, _justoDownload2.default)(opts.src, opts.dst, done);}

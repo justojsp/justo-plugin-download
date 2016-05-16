@@ -1,4 +1,7 @@
+[![NPM version](http://img.shields.io/npm/v/justo-plugin-download.svg)](https://www.npmjs.org/package/justo-plugin-download)
 [![Build Status](https://travis-ci.org/justojsp/justo-plugin-download.svg?branch=master)](https://travis-ci.org/justojsp/justo-plugin-download)
+[![Dependency Status](https://david-dm.org/justojsp/justo-plugin-download.svg)](https://david-dm.org/justojsp/justo-plugin-download)
+[![devDependency Status](https://david-dm.org/justojsp/justo-plugin-download/dev-status.svg)](https://david-dm.org/justojsp/justo-plugin-download#info=devDependencies)
 
 Plugin to download files.
 
